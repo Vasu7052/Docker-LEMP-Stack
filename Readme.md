@@ -8,7 +8,7 @@
 
 ## Usage
 
-1. Just place our PHP project in root folder and my docker congigurations will automatically mount your project files to their respective containers.
+1. Just place your PHP project/s in root folder and my docker congigurations will automatically mount your project files to their respective containers.
 
 2. Run Command in root dir ```docker-compose up``` and you are good to go...
 
