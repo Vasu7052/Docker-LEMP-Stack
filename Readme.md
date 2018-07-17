@@ -8,7 +8,7 @@
 
 ## Usage
 
-1. Just place your PHP project/s in root folder and my docker congigurations will automatically mount your project files to their respective containers.
+1. Just place your PHP project/s in root folder and my docker configurations will automatically mount your project files to their respective containers.
 
 2. Run Command in root dir ```docker-compose up``` and you are good to go...
 
@@ -22,6 +22,15 @@ I have added a demo php project. To test it, run the above command and then hit 
 * PHP: ```9000```
 * MYSQL: ```3306```
 * PHPMYADMIN: ```8080```
+
+## Configs
+
+* Nginx configs are in ```./docker/nginx/``` folder
+* PHP configs are in ```./docker/php/``` folder
+
+## Logs
+
+* Nginx Logs are in ```./docker/logs/``` folder
 
 ### Note
 
