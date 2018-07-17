@@ -2,7 +2,9 @@
 
 
 ## Introduction
-I have created this project so that it can be used for running PHP projects without using any third party softwares like XAMPP or Wampp Servers/Softwares. The docker files consists of containers of Nginx Server(with PHP modules alredy setup), MYSQL Server and a Phpmyadmin Server thereby completeing a whole LEMP Stack. All these containers are in CentOS and Debian based Operating System.
+I have created this project so that it can be used for running PHP projects without using any third party softwares like XAMPP or Wampp Servers/Softwares.
+The nice thing about this project is that you can easily work on multiple projects on your machine, each one having different dependencies without them clashing.
+The docker files consists of containers of Nginx Server(with PHP modules alredy setup), MYSQL Server and a Phpmyadmin Server thereby completeing a whole LEMP Stack. All these containers are in CentOS and Debian based Operating System.
 
 ## Usage
 
