@@ -19,5 +19,5 @@ I have created this project so that it can be used for running PHP projects with
 
 ### Note
 
-* Host for MYSQL server is docker_mysql:3306 (You can change them accordingly)
+* Host for MYSQL server is ```docker_mysql:3306``` (You can change them accordingly)
 * Ports can be changed inside docker-compose.yml file 
