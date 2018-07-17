@@ -1,0 +1,28 @@
+server {
+   listen 80;
+   # server_name test.messagebox.com;
+   server_name localhost;
+   charset UTF-8;
+   index index.php;
+   set $r /home/php_files/;
+   root $r;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+   location ~ \.php$ {
+           fastcgi_pass unix:/run/php/php7.0-fpm.sock; 
+           fastcgi_index  index.php;
+           fastcgi_buffers 256 8k;
+           fastcgi_param  SCRIPT_FILENAME  $realpath_root$fastcgi_script_name;
+           fastcgi_param  DOCUMENT_ROOT  $realpath_root;
+
+           include        fastcgi_params;
+
+   }
+
+   location ~ /\. {
+     deny  all;
+   }
+}
