@@ -10,6 +10,10 @@ I have created this project so that it can be used for running PHP projects with
 
 2. Run Command in root dir ```docker-compose up``` and you are good to go...
 
+### Demo Project
+
+I have added a demo php project. To test it, run the above command and then hit the url ```http://localhost/Demo/index.php``` 
+
 ## Default Running Ports
 
 * NGINX: ```80```
