@@ -26,4 +26,4 @@ I have added a demo php project. To test it, run the above command and then hit 
 ### Note
 
 * Host for MYSQL server is ```docker_mysql:3306``` (You can change them accordingly)
-* Ports can be changed inside docker-compose.yml file 
+* Make Sure above mentioned ports are not already used. If yes, then either free that port or change the port in docker-compose.yml file
