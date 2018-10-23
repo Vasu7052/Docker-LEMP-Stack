@@ -17,9 +17,51 @@ services:
         - ./logs/nginx-access.log:/var/log/nginx/access.log
   
         - ./php/php.ini:/usr/local/etc/php/conf.d/php.ini
-        - ../:/home/php_files/
+        - ../PHPFiles/:/home/php_files/
 
     command: /bin/bash -c "service php7.0-fpm start && service nginx start && echo "" > /var/log/nginx/access.log && echo "" > /var/log/nginx/error.log && tail -f /var/log/nginx/access.log -f /var/log/nginx/error.log -f /var/log/php7.0-fpm.log"
+    environment:
+        - TZ=Asia/Kolkata
+
+  flask:
+    build: Flask/
+    container_name: docker_flask
+    ports:
+        - "81:80"
+    links:
+        - mysql
+    volumes:
+        - ../FlaskFiles/:/home/flask_files/
+
+    command: /bin/bash -c "cd /home/flask_files/ && pip3 install -r requirements.txt && python3 app.py"
+    environment:
+        - TZ=Asia/Kolkata
+
+  django:
+    build: Django/
+    container_name: docker_django
+    ports:
+        - "82:8000"
+    links:
+        - mysql
+    volumes:
+        - ../DjangoFiles/:/home/django_files/
+
+    command: /bin/bash -c "cd /home/django_files/ && pip3 install -r requirements.txt && python3 manage.py runserver 0.0.0.0:8000"
+    environment:
+        - TZ=Asia/Kolkata
+
+  node:
+    image: node
+    container_name: docker_node
+    ports:
+        - "83:8080"
+    links:
+        - mysql
+    volumes:
+        - ../NodeFiles/:/home/node_files/
+
+    command: /bin/bash -c "cd /home/node_files/ && npm install && node index.js"
     environment:
         - TZ=Asia/Kolkata
 

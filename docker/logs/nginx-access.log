@@ -1,2 +1,11 @@
 
-172.19.0.1 - - [17/Jul/2018:16:05:27 +0530] "GET /QuoraWebsite/index.php HTTP/1.1" 200 2239 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:28:12 +0530] "GET / HTTP/1.1" 200 23828 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:28:13 +0530] "GET /favicon.ico HTTP/1.1" 200 23810 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:01 +0530] "GET / HTTP/1.1" 200 23872 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:02 +0530] "GET /favicon.ico HTTP/1.1" 200 23858 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:11 +0530] "GET / HTTP/1.1" 200 23898 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:11 +0530] "GET /favicon.ico HTTP/1.1" 200 23882 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:21 +0530] "GET /phpmyadmin HTTP/1.1" 200 23884 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:22 +0530] "GET /favicon.ico HTTP/1.1" 200 23860 "http://localhost/phpmyadmin" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:26 +0530] "GET /phpmyadmin HTTP/1.1" 200 23910 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
+172.20.0.1 - - [23/Oct/2018:20:29:26 +0530] "GET /favicon.ico HTTP/1.1" 200 23866 "http://localhost/phpmyadmin" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
